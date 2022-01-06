@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 50px;
 } 
+h2{
+    font-size: 40px;
+}
+h3{
+    color: orange;
+}
 .orange-color{
     color: orange;
 }
@@ -17,8 +23,8 @@ h1{
     padding-left: 5%
 }
 .half-width img{
-    width: 70%;
-    padding-left: 10%;
+    width: 50%;
+    padding-left: 2%;
 }
 .button{
     text-decoration: none;
@@ -37,6 +43,21 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }   
-.exprience{
-    margin-left: 100px;
+.exprience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exprienve-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    box-shadow: 10px 10px 15px gray;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-radius: 5px;
+}    
+footer{
+    text-align: center;
 }
